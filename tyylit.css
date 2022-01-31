@@ -1,0 +1,207 @@
+body{
+    width:960px;
+    height:800px;
+    margin:auto;
+   
+    
+    
+}
+
+#yks{
+    width:960px;
+    height:800px;
+    margin:auto;
+}
+#yks::after{
+    content:"";
+    background-image:url("taustakuva.jpg");
+    background-repeat: no-repeat;
+    background-size:1920px 1080px;
+    opacity:0.9;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    z-index:-1;
+}
+
+
+
+
+#header{
+    width:960px;
+    min-height:100px;
+    overflow:auto;
+    
+    
+}
+
+
+@font-face{
+    font-family:omafontti1;
+    src:url("fontti1.ttf");
+}
+#header img{
+    width:180px;
+    height:180px;
+    margin:0px;
+    padding:0px;
+    float:left;
+    
+    
+    
+}
+
+#header h1{
+    float:left;
+    margin:0px;
+    padding-left:180px;
+    padding-top:70px;
+    
+    
+}
+#nav1 a{
+    text-decoration:none;
+    font-size:20px;
+   
+}
+
+
+#nav1{
+    
+    height:40px;
+    
+    
+    
+}
+#nav1 ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    
+    
+
+
+}
+
+#nav1 li{
+    display:inline;
+    float:left;
+    
+   
+}
+
+#nav1 a:link, a:visited{
+    display:block;
+    width:230px;
+    font-weight:bold;
+    color:#000;
+    background-color:#4287f5;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    border:1px solid #000;
+    width:310px;
+    
+    
+
+}
+
+#nav1 a:hover{
+    background-color:#195d91;
+}
+
+
+
+
+#nav{
+    width:200px;
+    height:450px;
+    float:left;
+    
+    
+}
+
+#nav img{
+    width:80px;
+    height:80px;
+    margin-top:40px;
+    margin-right:10px;
+    
+}
+
+#content{
+    width:550px;
+    height:400px;
+    float:left;
+    margin-top:47px;
+    column-count:2;
+    column-gap:20px;
+    box-shadow:4px 4px 4px #000;
+    margin-left:2px;
+    padding-left:2px;
+    background-color:#c2d4f2;
+    border-radius:10px;
+   
+    
+    
+    
+    
+   
+    
+   
+    
+    
+
+    
+
+}
+#content p::first-letter{
+    font-size:200%;
+}
+
+#content p{
+    margin:0px;
+    font-size:19px;
+    font-family:omafontti1;
+   
+
+    
+    
+}
+
+
+
+[class*="kuvat"]:hover{
+    transform: scale(3);
+    transition:2s;
+    opacity:1.0;
+}
+
+#video{
+    width:200px;
+    height:500px;
+    float:left;
+   
+    
+}
+#video img{
+    width:80px;
+    height:80px;
+    margin-top:40px;
+    margin-left:10px;
+    
+    
+}
+
+#footer{
+    width:960px;
+    height:100px;
+    text-align:center;
+    box-shadow:4px 4px 4px solid #000;
+   
+
+}
+
+

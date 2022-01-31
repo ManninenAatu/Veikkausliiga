@@ -1,0 +1,226 @@
+body{
+    width:960px;
+    height:800px;
+    margin:auto;
+   
+}
+#nav1 a{
+  text-decoration:none;
+  font-size:20px;
+ 
+}
+
+
+#nav1{
+  
+  height:40px;
+  
+  
+  
+}
+#nav1 ul{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  
+  
+
+
+}
+
+#nav1 li{
+  display:inline;
+  float:left;
+  
+ 
+}
+
+#nav1 a:link, a:visited{
+  display:block;
+  width:230px;
+  font-weight:bold;
+  color:#000;
+  background-color:#195d91;
+  
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  border:1px solid #000;
+  width:310px;
+  
+  
+
+}
+
+#nav1 a:hover{
+  background-color:#;
+  
+}
+
+
+#yks{
+  width:960px;
+  height:800px;
+  margin:auto;
+
+}
+#yks::after{
+  content:"";
+  background-image:url("taustakuva.jpg");
+  background-repeat: no-repeat;
+  background-size:1920px 1080px;
+  opacity:0.9;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  position:absolute;
+  z-index:-1;
+}
+ #header{
+     width:960px;
+     min-height:100px;
+     overflow:auto;
+
+ }
+
+ #header img{
+     width:180px;
+     height:180px;
+     margin:0px;
+     padding:0px;
+     float:left;
+ }
+ #nav{
+    width:200px;
+    height:500px;
+    float:left;
+    
+}
+#nav ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    margin-top:50px;
+}
+#nav li{
+    display:block;
+    
+
+}
+
+#nav a{
+    text-decoration:none;
+    font-size:20px;
+}
+
+#nav a:link, a:visited{
+    display:block;
+    font-weight: bold;
+    color:#000;
+    background-color:#4287f5;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+    border:1px solid #000;
+    border-radius:5px;
+    box-shadow:5px 5px 5px #000;
+}
+
+#nav a:hover{
+  color:#fff;
+}
+#content{
+    width:560px;
+    height:500px;
+    float:left;
+    margin-bottom:50px;
+    
+}
+@font-face{
+    font-family:omafontti1;
+    src:url("fontti1.ttf");
+  }
+
+  #video{
+    width:150px;
+    height:500px;
+    float:left;
+    
+  }
+  
+  #video p{
+    font-family:omafontti1;
+    
+  
+  
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin-left:120px;
+    margin-top:40px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  
+  .flip-card-back {
+
+    transform: rotateY(180deg);
+  }
+  th, tr {
+    
+    box-shadow:4px 4px 4px #000;
+  }
+  .square {
+    margin-left:85px;
+    width:40px;
+    height:40px;
+    background-color:#000;
+    float:left;
+  }
+  
+  .square1 {
+    margin-left:20px;
+    width:40px;
+    height:40px;
+    background-color:gold;
+    float:left;
+  }
+  #video a:link, a:visited{
+    text-decoration:none;
+    text-align:center;
+    border-bottom:2px solid;
+    color:#000;
+
+  }
+  
+  .fa {
+    
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
